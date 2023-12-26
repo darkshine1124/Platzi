@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS basico</title>
+    <!--Forma de entrelazar los archivos de HTML y CSS dandole el tipo de relacion y la referencia de destino-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Forma de dar estilos en el head, sin embargo es mejor hacerlo en un archivo independiente-->
+    <style>
+        p{
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!--Forma para dar estilo directamente, no es buena practica (Estilo enbebido)-->
+        <p style="color:darkblue;">Texto de prueba</p>
+        <p id="parrafo">Texto de prueba</p>
+        <p class="parrafo">Texto de prueba</p>
+    </main>
+</body>
+</html>

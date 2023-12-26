@@ -1,0 +1,18 @@
+p{
+    color: darkblue;
+    font-size: x-large;
+}
+
+/*CLASES*/
+
+.parrafo {
+    color: darkgoldenrod;
+    font-size: x-large;
+}
+
+/*ID*/
+
+#parrafo {
+    color: darkgreen;
+    font-size: x-large;
+}
